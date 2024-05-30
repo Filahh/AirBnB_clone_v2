@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Flask framework
+"""Flask framework role
 """
 from flask import Flask, url_for, render_template
 
