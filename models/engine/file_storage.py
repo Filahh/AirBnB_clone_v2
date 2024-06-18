@@ -66,8 +66,7 @@ class FileStorage:
     def close(self):
         """ calls reload()
         """
-        self.reload()
-    
+        self.reload() 
     def reload(self):
         """serialize the file path to JSON file path
         """
