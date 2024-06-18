@@ -58,7 +58,8 @@ class DBStorage:
         """add a new element in the table
         """
         self.__session.add(obj)
-    def reload(self):
+        def reload(self):
+
         """configuration
         """
         Base.metadata.create_all(self.__engine)
